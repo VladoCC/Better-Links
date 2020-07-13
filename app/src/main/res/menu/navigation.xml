@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_show"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="@string/title_show" />
+
+    <item
+        android:id="@+id/navigation_add"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/title_add"
+        android:background = "@drawable/button_borders" />
+
+    <item
+        android:id="@+id/navigation_scan"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="@string/title_scan" />
+
+</menu>

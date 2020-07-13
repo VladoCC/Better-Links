@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Better Link</string>
+    <string name="title_show">Show</string>
+    <string name="title_add">Add</string>
+    <string name="title_scan">Scan</string>
+    <string name="dialog_add">Add new link</string>
+    <string name="dialog_edit">Edit link</string>
+    <string name="dialog_name">Name</string>
+    <string name="dialog_link">Link</string>
+    <string name="dialog_email">Email</string>
+    <string name="dialog_phone">Phone Number</string>
+    <string name="choose_link">Choose link</string>
+    <string name="incorrect_link">Incorrect link structure for this type</string>
+    <string name="incorrect_name">Name can not be empty</string>
+    <string name="add_new_link">Add new link</string>
+
+    <string-array name="add_spinner_type_list">
+        <item>Web link</item>
+        <item>Email</item>
+        <item>Phone number</item>
+    </string-array>
+
+    <string-array name="add_spinner_prefix_list">
+        <item>http://</item>
+        <item>https://</item>
+    </string-array>
+
+    <string-array name="actions_dialog">
+        <item>Edit</item>
+        <item>Remove</item>
+    </string-array>
+</resources>
