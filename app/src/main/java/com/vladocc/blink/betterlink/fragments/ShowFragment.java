@@ -120,14 +120,7 @@ public class ShowFragment extends Fragment {
         });
 
         dialog = builder.create();
-        // quite a silly hack, which solves the problem with automatic closing of dialog
-        // on any actions out of app
-        dialog.setOnShowListener(new DialogInterface.OnShowListener() {
-            @Override
-            public void onShow(DialogInterface dialog) {
-
-            }
-        });
+        
         dialog.show();
         Log.w("shown", "QR Code choose dialog");
     }
